@@ -1,0 +1,10 @@
+#custom redirects
+
+RewriteRule ^old/URL/path$ http://example.com/new/path [R=301,L]
+
+#end custom redirects
+
+Example:
+
+RewriteRule ^petloss.htm$ http://www.petmemorial.net/petloss [R=301,L]
+RewriteRule ^index.htm$ http://www.petmemorial.net/ [R=301,L]
